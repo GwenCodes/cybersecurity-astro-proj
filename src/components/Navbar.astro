@@ -1,0 +1,41 @@
+---
+// src/components/Navbar.astro
+---
+
+<header class="w-full border-b border-gray-800 bg-black">
+  <nav class="max-w-5xl mx-auto flex items-center justify-between px-6 py-4">
+
+    <!-- Logo + Brand -->
+    <a href="/" class="flex items-center gap-2">
+      <img
+        src="/images/logos/cyber-brief-logo-corral.png"
+        alt="Cyber-Brief logo"
+        class="h-5 w-auto block"
+      />
+      <span class="text-white font-semibold text-lg tracking-tight">
+        Cyber-Brief
+      </span>
+    </a>
+
+    <!-- Nav Links -->
+    <ul class="flex items-center gap-6">
+      <li>
+        <a
+          href="/intelligence"
+          class="text-gray-300 hover:text-white text-sm font-medium transition-colors"
+        >
+          Intelligence
+        </a>
+      </li>
+      <li>
+        <a
+          href="/about"
+          class="text-gray-300 hover:text-white text-sm font-medium transition-colors"
+        >
+          About
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+</header>
